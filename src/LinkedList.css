@@ -1,0 +1,31 @@
+/* some css for make linkelist more fency  */
+
+.LinkedList {
+    display: flex;
+    flex-direction: row;
+}
+
+.form {
+    margin-top: 2rem;
+}
+
+.form input {
+    border: 1px solid gainsboro;
+    padding: 0.2rem 0.3rem;
+    margin: 5px;
+    font-size: 1rem;
+}
+
+.form button {
+    padding: 0.3rem 0.5rem;
+    border: 1px solid gainsboro;
+    background: none;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.form button:active {
+    border: 1px solid rgb(39, 39, 39);
+    background: rgb(39, 39, 39);;
+    color: white;
+}

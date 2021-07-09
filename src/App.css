@@ -1,0 +1,16 @@
+/* some global css in here.  */
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+/* root work as a body so apply the css on root diretly  */
+#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+}

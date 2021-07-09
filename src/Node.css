@@ -1,0 +1,46 @@
+/* 
+    some css for make node more attractive
+    with some fancy colors.
+*/
+
+.node {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 5px;
+    font-family: system-ui;
+    font-size: 1.2rem;
+    background: #ffffff;
+    margin-right: 50px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 6px -2px #000000c4;
+}
+
+.data{
+    margin: 2px;
+    background: #abf3ff;
+    padding: 0px 5px;
+    border-radius: 2px;
+}
+
+.next {
+    margin: 2px;
+    background: #abf3ff;
+    padding: 0px 5px;
+    border-radius: 2px;
+}
+
+.next {
+    width: 10px;
+    height: 26px;
+}
+
+.next hr {
+    width: 70px;
+    position: relative;
+    top: 12px;
+    left: 4px;
+}
